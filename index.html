@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script src="js/viewport.js"></script>
+<title>清明专题</title>		
+
+<link href="css/reset.css" rel="stylesheet" type="text/css" >
+<link rel="stylesheet" href="css/parallax.css">
+<link rel="stylesheet" href="css/parallax-animation.css">
+<link id="common" href="css/common.css" rel="stylesheet" type="text/css" >
+</head>
+
+
+<body class="bodyhui" ng-controller="appCtrl" class="ng-cloak">
+
+	<!--下面是竖屏提示,性能原因丢最后-->
+	<div id="orientLayer" class="orientLayer">
+	    <img src="images/orient.png" class="orientIcon">
+	    <div class="orientWrd">为了更好的体验，请使用竖屏浏览</div>
+	</div>
+
+	<!-- loading -->
+	<div class="load">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+     </div>
+
+	<!-- main -->
+	<div class="wrap pr">
+		<div class="index pages">
+			<div class="page current">
+				<img src="images/t_1.png" alt="" class="t_1 pa" data-animation="slideToBottom" data-timing-function="swing" data-duration="600">
+				<img src="images/w_1.png" alt="" class="w_1 pa" data-animation="slideToLeft" data-delay="300" data-timing-function="swing" data-duration="1000">
+				<img src="images/girl.png" alt="" class="girl pa" data-animation="slideToTop" data-delay="300" data-timing-function="swing" data-duration="1200">
+
+				<!-- <img src="images/arr.png" alt="" class="arr scale pa"> -->
+			</div>
+
+			<div class="page">
+				<img src="images/say.png" alt="" class="say pa" data-animation="slideToBottom" data-timing-function="swing" data-duration="600">
+				<img src="images/say1.png" alt="" class="say1 pa" data-animation="slideToTop" data-timing-function="swing" data-duration="600">
+				<ul class="selLst pa clearfix" data-animation="fadeIn" data-timing-function="swing"  data-delay="300" data-duration="1200">
+					<li><img src="images/m1.png" alt=""></li>
+					<li><img src="images/m2.png" alt=""></li>
+					<li><img src="images/m3.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="upMod allHei none">	
+			<h2 class="upTit"><img src="images/atit.png" alt=""></h2>
+			<!-- <form class="upFrm uf1" action="index.php?mod=info&ac=pub" method="POST" enctype="multipart/form-data"> -->
+			<form class="upFrm uf1" enctype="multipart/form-data">
+				<ul class="upLst clearfix">
+					<li class="upFixed upFirst"><img src="images/m1_1.png" alt=""></li>
+
+					<li class="upItem mrTit">
+		                <input class="file" type="file" name="" id="file0">
+		                <div class="veiw">
+		                    <img src="" alt="" class="vImg">
+		                </div>
+		            </li>
+		            
+					<li class="upFixed upLast"><img src="images/m1_n.png" alt=""></li>
+				</ul>
+
+				<img src="images/p1.png" alt="" class="selImg pa">
+				<img src="images/awrd.png" alt="" class="etImg pa">
+				<div class="upBar pa">
+					<a class="btn backBtn"><img src="images/backBtn.png" alt=""></a>
+					<a class="btn viewBtn"><img src="images/viewBtn.png" alt=""></a>
+				</div>	
+			</form>
+		</div>
+		
+		<div class="viewMod allHei pr none">
+			<div class="pageContain pages"></div>
+			
+			<div class="viewBtns pa">
+				<a class="btn backSel"><img src="images/backBtn.png" alt=""></a>
+				<a class="btn surePub"><img src="images/fbBtn.png" alt=""></a>
+			</div>
+		</div>
+
+
+
+	</div>
+	
+	<!-- edit -->
+	<div class="editDiv none">
+		<div class="editTop">
+			<div class="editImg">
+				<img src="" alt="" class="eImg">
+			</div>
+			<input type="text" class="editWrd" placeholder="编辑文字" />
+		</div>
+		<div class="editBot">
+			<a class="editBtn"><img src="images/delBtn.png" alt=""></a>
+			<a class="sureBtn"><img src="images/sureBtn.png" alt=""></a>
+		</div>
+	</div>
+
+	
+
+	<!-- 引用插件-->
+	<script src="js/zepto.min.js"></script>
+	<script src="js/parallax.js"></script>
+
+	<!-- 自定义	 -->
+	<script src="js/orient.js"></script>
+	
+	<!-- 上传 -->
+	<!-- jpg处理 -->
+	<script src="js/LocalResizeIMG.js" type="text/javascript"></script>
+    <!-- mobileBUGFix.js 兼容修复移动设备 -->
+    <script src="js/mobileBUGFix.mini.js" type="text/javascript"></script>
+
+
+	<script id="commonjs" src="js/common.js"></script> 
+</body>
+</html>

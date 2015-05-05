@@ -1,0 +1,50 @@
+@charset 'utf-8';
+/*---------------------------------------------------------------------------------------------------------------------
+Document:      reset css
+Create on:     2014/10/25
+Author:        Guoxin
+Description:   css样式表的初始化，全局样式设置。部分样式属性请根据具体页面自行重置 
+*/
+
+/*reset*/
+html { overflow-x: hidden; overflow-y: auto; font-size: 100%; -webkit-text-size-adjust:100%; }
+body { margin: 0; background: #fff; font: 12px/1.5 Microsoft Yahei,Simsun; color: #555; }
+p,h1,h2,h3,h4,h5,h6,dl,dd,form { margin: 0; }
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight: normal; outline: 0; }
+ul,ol { padding: 0; margin: 0; list-style: none; }
+table { border-collapse:collapse; border-spacing: 0; }
+caption,th,td { border-collapse:separate; }
+a { text-decoration: none; color: #333; font-size: 12px; }
+fieldset,img,iframe { border: none; vertical-align: top; }
+img { /* max-width: 100%;  width: auto\9;*/ -ms-interpolation-mode:bicubic; }
+input,select,textarea,button { margin: 0; color: #666; font-size: 100%; font-family: Microsoft Yahei,Simsun; vertical-align: middle; }
+input[type="button"],input[type="reset"],input[type="submit"] { cursor: pointer; -webkit-apperance:button; }
+textarea { vertical-align: top; overflow: auto; }
+:focus { outline: none; }
+a:active { star:expression(this.onFocus = this.blur()); }
+
+/*html5*/
+header,footer,article,section,aside,nav,canvas,tfoot,thead,figure,figcaption,hgroup,time,mark,audio,video { padding: 0; border: none; margin: 0; font-size: 100%; vertical-align: baseline; }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block; }
+audio,video,canvas { display: inline-block; *display: inline; *zoom:1; }
+audio:not([controls]) { display: none; }
+
+/*public*/
+.fl { float: left; display: inline; }
+.fr { float: right; display: inline; }
+.clearfix:after { display: block; height: 1%; line-height: 0; font-size: 0; visibility: hidden; clear: both; content: ''; }
+.clearfix { zoom:1; }
+
+.tl { text-align: left; }
+.tc { text-align: center; }
+.tr { text-align: right; }
+
+.widFixed { width: 640px; margin-left: auto; margin-right: auto; }
+.ovh { overflow: hidden; }
+.pr { position: relative; }
+.pa { position: absolute; }
+.none { display: none; }
+
+.fwb { font-weight: bold; }
+.fwn { font-weight: normal; }
+.fsi { font-style: italic; }

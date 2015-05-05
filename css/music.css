@@ -1,0 +1,11 @@
+/*----------------------------------------------------------------
+Name:   背景音乐播放-IOS、安卓判断
+Author: Guoxin
+Time:   2014/11/19
+*/
+body { background: #000; }
+
+
+.music { width: 100px; height: 100px; position: fixed; top: 10px; right: 10px; z-index: 900; }
+    .mIco { position: absolute; top: 10px; right: 10px; }
+    .aud { opacity: 0; }
